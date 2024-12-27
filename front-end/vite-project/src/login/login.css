@@ -1,0 +1,56 @@
+.admin-container h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    text-align: left;
+    margin: 20px 0 40px 52px; 
+  }
+
+  .cnt2{
+    margin-top: 150px;
+  }
+  
+  .input-login,
+  .input-password {
+    width: 374px;
+    height: 40px;
+    margin: 10px 0; 
+    padding: 8px; 
+    border: 1px solid #434343;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .loginbutton {
+    width: 120px;
+    height: 48px;
+    margin: 20px auto; 
+    display: block;
+    background-color: #6a0dad;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  button:hover {
+    background-color: #5a0cac;
+  }
+  
+  label {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    display: block;
+    margin: 10px auto;
+    width: 374px;
+  }
+  .gfvdsjhjd{
+    color: white;
+  }

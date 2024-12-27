@@ -1,0 +1,110 @@
+.headerp{
+width: 200px;
+height: 10px;
+left: 52px;
+margin-left: 0px;
+font-family: Roboto;
+font-size: 10px;
+font-weight: 500;
+line-height: 10.9px;
+text-align: left;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.listcontainer{
+    margin-left: 20px;
+}
+.coins{
+    display: flex;
+
+}
+.coin-right{
+    margin-left: 250px;
+}
+.firsth2{
+    margin-left: 30px;
+    color: #833AE0;
+
+}
+p{
+    font-size: 14px;
+    width: 200px;
+margin-left: 30px;
+    box-sizing: border-box;
+}
+.coinleft{
+    display: flex;
+    margin-top: 30px;
+}
+
+.label1{
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 60px;
+}
+h1{
+    width: 600px;
+height: 50px;
+top: 52px;
+left: 52px;
+gap: 0px;
+opacity: 0px;
+font-family: Roboto;
+font-size: 50px;
+font-weight: 300;
+line-height: 58.59px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+@media screen and (max-width: 780px) {
+    .headerp {
+      width: 100%; 
+      font-size: 12px; 
+      margin-left: 0; 
+    }
+  
+    .listcontainer {
+      margin-left: 10px; 
+    }
+  
+    .coins {
+      flex-direction: column; 
+    }
+  
+    .coin-right {
+      margin-left: 0;
+      margin-top: 10px; 
+    }
+  
+    .firsth2 {
+      margin-left: 0; 
+      font-size: 18px; 
+    }
+  
+    p {
+      width: 100%;
+      font-size: 12px; 
+      margin-left: 0; 
+    }
+  
+    .coinleft {
+      display: block; 
+      margin-top: 20px;
+    }
+  
+    .label1 {
+      font-size: 14px; 
+      margin-top: 30px; 
+    }
+  
+    h1 {
+      width: 100%; 
+      font-size: 32px; 
+      margin-left: 0; 
+    }
+  }
+  

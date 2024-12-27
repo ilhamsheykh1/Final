@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.AdminContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.AdminTitle {
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.FormContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.Column {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.InputLabel {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.TextInput, 
+.TextAreaInput {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.TextAreaInput {
+  resize: none;
+}
+
+.ButtonContainer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.SaveButton, 
+.CancelButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.SaveButton {
+  background-color: #6a1b9a;
+  color: #fff;
+}
+
+.SaveButton:hover {
+  background-color: #7b1fa2;
+}
+
+.CancelButton {
+  background-color: #ccc;
+  color: #333;
+}
+
+.CancelButton:hover {
+  background-color: #bdbdbd;
+}
+
+
+@media screen and (max-width: 768px) {
+  .FormContainer {
+    grid-template-columns: 1fr 1fr; 
+    gap: 15px;
+  }
+}
+
+
+@media screen and (max-width: 780px) {
+  .FormContainer {
+    grid-template-columns: 1fr;
+    gap: 10px; 
+  }
+
+  .AdminTitle {
+    font-size: 24px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  .TextInput, 
+  .TextAreaInput {
+    padding: 8px;
+    font-size: 13px;
+  }
+
+  .SaveButton, 
+  .CancelButton {
+    padding: 8px 15px;
+    font-size: 14px;
+  }
+}

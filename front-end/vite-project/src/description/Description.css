@@ -1,0 +1,128 @@
+.left1{
+margin-left: 300px;
+}
+.bir{
+margin-top: 45px;
+margin-bottom: 25px;
+}
+.table{
+    margin-left: 21px;
+    margin-top: 20px;
+}
+.link{
+ margin-top: 102px;
+margin-left: 35px;
+
+ width: 366px;
+height: 10px;
+top: 643px;
+left: 622px;
+gap: 0px;
+opacity: 0px;
+font-family: Roboto;
+font-size: 10px;
+font-weight: 400;
+line-height: 11.72px;
+text-align: left;
+text-decoration-line: underline;
+text-decoration-style: solid;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.cont2{
+    width: 350px;
+    font-family: Roboto;
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.badimcan{
+width: 366px;
+height: 30px;
+font-family: Roboto;
+font-size: 28px;
+font-weight: 700;
+line-height: 32.81px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+.contincont{
+box-sizing: border-box;
+
+width: 400px;
+height: 600px;
+}
+.right{
+box-sizing: border-box;
+width: 400px;
+height: 600px;
+background-color:#C4C4C480;
+margin-left: 60px;
+margin-top: 60px;
+}
+.desccont{
+display: flex;
+}
+@media screen and (max-width: 780px) {
+    .left1 {
+      margin-left: 0; 
+    }
+  
+    .bir {
+      margin-top: 20px; 
+      margin-bottom: 20px; 
+    }
+  
+    .table {
+      margin-left: 10px;
+      margin-top: 15px; 
+    }
+  
+    .link {
+      margin-top: 20px; 
+      margin-left: 0;
+      width: 100%; 
+      font-size: 12px; 
+      text-align: center;
+    }
+  
+    .cont2 {
+      width: 100%;
+      font-size: 14px; 
+      line-height: 18px;
+      text-align: center; 
+    }
+  
+    .badimcan {
+      width: 100%; 
+      font-size: 22px;
+      line-height: 28px; 
+      text-align: center; 
+    }
+  
+    .contincont {
+      width: 100%; 
+      height: auto; 
+      margin: 20px 0; 
+    }
+  
+    .right {
+      width: 100%; 
+      height: auto; 
+      margin: 20px 0;
+      background-color: #C4C4C480;
+    }
+  
+    .desccont {
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+      gap: 20px; 
+    }
+  }
+  
